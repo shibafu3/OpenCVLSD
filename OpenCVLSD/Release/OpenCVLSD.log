@@ -1,0 +1,20 @@
+﻿2017/07/31 11:33:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\OpenCVLSD\OpenCVLSD.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv310\build\install\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\opencv310\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\opencv310\build\install\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\opencv310\build\install\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>main.cpp(119): warning C4244: '引数' : 'const double' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(120): warning C4244: '引数' : 'const double' から 'int' への変換です。データが失われる可能性があります。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\Release\OpenCVLSD.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\Release\OpenCVLSD.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\Release\OpenCVLSD.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         コード生成しています。
+         コード生成が終了しました。
+         OpenCVLSD.vcxproj -> C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\Release\OpenCVLSD.exe
+     1>プロジェクト "C:\Users\0133752\Documents\Visual Studio 2013\Projects\OpenCVLSD\OpenCVLSD\OpenCVLSD.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.27
